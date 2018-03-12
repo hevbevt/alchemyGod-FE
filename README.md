@@ -1,5 +1,7 @@
 # Alchemy God Front End Project
 
 ```
-  npm run serve
+npm install
+  
+npm run serve
 ```
