@@ -3,7 +3,7 @@
     <el-col :span="4" class="nav">
         <img class="logo" src="../assets/logo.png" alt="">
         <el-menu :router="true">
-          <el-menu-item index="nav1">
+          <el-menu-item index="counter">
           <i class="el-icon-menu"></i>
           <span slot="title">导航二</span>
         </el-menu-item>
