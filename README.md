@@ -10,11 +10,11 @@ npm run serve
 - [x] vue router 路由控制
 - [x] vuex 状态管理
 - [x] axios api请求
-- [] spinner loading
-- [] 前后端交互
-- [] 线上发布流程
+- [ ] spinner loading
+- [ ] 前后端交互
+- [ ] 线上发布流程
 
 ## FEATURE TODO LIST
 
-- [] 登录校验
-- [] 页面结构
+- [ ] 登录校验
+- [ ] 页面结构
