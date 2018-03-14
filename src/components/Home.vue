@@ -3,18 +3,30 @@
     <el-col :span="4" class="nav">
         <img class="logo" src="../assets/logo.png" alt="">
         <el-menu :router="true">
-          <el-menu-item index="counter">
-          <i class="el-icon-menu"></i>
-          <span slot="title">导航二</span>
-        </el-menu-item>
-        <el-menu-item index="2" disabled>
-          <i class="el-icon-document"></i>
-          <span slot="title">导航三</span>
-        </el-menu-item>
-        <el-menu-item index="3">
-          <i class="el-icon-setting"></i>
-          <span slot="title">导航四</span>
-        </el-menu-item>
+          <el-menu-item index="alchemy">
+            <i class="el-icon-menu"></i>
+            <span slot="title">炼金</span>
+          </el-menu-item>
+          <el-menu-item index="inventory">
+            <i class="el-icon-document"></i>
+            <span slot="title">库存</span>
+          </el-menu-item>
+          <el-menu-item index="gallery">
+            <i class="el-icon-setting"></i>
+            <span slot="title">图鉴</span>
+          </el-menu-item>
+          <el-menu-item index="skin">
+            <i class="el-icon-setting"></i>
+            <span slot="title">皮肤</span>
+          </el-menu-item>
+          <el-menu-item index="market">
+            <i class="el-icon-setting"></i>
+            <span slot="title">市场</span>
+          </el-menu-item>
+          <el-menu-item index="data">
+            <i class="el-icon-setting"></i>
+            <span slot="title">数据</span>
+          </el-menu-item>
         </el-menu>
     </el-col>
   </el-row>
